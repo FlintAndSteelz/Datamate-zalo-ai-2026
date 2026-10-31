@@ -1,0 +1,13 @@
+* text=auto eol=lf
+
+*.py text eol=lf
+*.toml text eol=lf
+*.lock text eol=lf
+*.md text eol=lf
+*.jsonl text eol=lf
+*.csv text eol=lf
+
+*.sqlite binary
+*.db binary
+*.xlsx binary
+*.parquet binary

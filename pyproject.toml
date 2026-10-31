@@ -1,0 +1,26 @@
+[project]
+name = "datamate-zalo-ai-2026"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "chokople", email = "datvubsn@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+]
+
+[project.scripts]
+datamate-zalo-ai-2026 = "datamate_zalo_ai_2026:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "ruff>=0.17.3",
+]
